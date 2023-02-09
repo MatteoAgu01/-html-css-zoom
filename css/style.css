@@ -18,6 +18,14 @@ img{
 .h-flex{
      display: flex;
      justify-content: flex-end;
+     padding: 5.5vh;
+}
+
+button{
+     padding:2px;
+     margin: 3px;
+     background-color: #4a4a4a;
+     color: white;
 }
 main{
      width: 75vw;
