@@ -59,12 +59,6 @@ footer {
      background-color: #484d52;
 }
 
-.ending{
-     background-color: lightgrey;
-     width: 6%;
-     display: flex;
-     justify-content: center;
-}
 
 #end{
      color: red;
@@ -74,5 +68,18 @@ footer {
 
 footer section{
      text-align: center;
-     margin: 3px;
+     margin: 3px 10px;
+}
+
+.fa-share-from-square{
+     color: greenyellow;
+}
+
+
+.ending{
+     background-color: lightgrey;
+     width: 6%;
+     display: flex;
+     justify-content: center;
+     margin: 0;
 }
