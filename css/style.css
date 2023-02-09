@@ -1,0 +1,78 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     border: px solid white;
+}
+
+body{
+     background-color: black;
+}
+
+img{
+     width: 100%;
+     z-index: -1;
+}
+
+main{
+     width: 75vw;
+     margin: auto;
+}
+
+.container-web{
+     width: calc( 100% / 7 - 22px);
+     position:relative;
+     margin: 3px 2px;
+}
+
+.fa-microphone-slash{
+     color: white;
+     background-color: grey;
+     position: absolute;
+     bottom: 4%;
+     left: 0;
+     z-index: 1;
+}
+.d-flex{
+     display: flex;
+     flex-wrap: wrap;
+
+}
+
+footer i, p{
+     color: white;
+     display: flex;
+     justify-content: space-between;
+}
+
+.c-flex{
+     display: flex;
+     margin: 1%;
+
+}
+
+footer {
+     margin-top: 2%;
+     height: 11vh;
+     display: flex;
+     justify-content: space-between;
+     background-color: #484d52;
+}
+
+.ending{
+     background-color: lightgrey;
+     width: 6%;
+     display: flex;
+     justify-content: center;
+}
+
+#end{
+     color: red;
+     align-self: center; 
+
+}
+
+footer section{
+     text-align: center;
+     margin: 3px;
+}
