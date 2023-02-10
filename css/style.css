@@ -1,68 +1,30 @@
-*{
+* {
      margin: 0;
      padding: 0;
      box-sizing: border-box;
      border: px solid white;
 }
 
-
-
-body{
+/* general */
+body {
      background-color: black;
 }
 
-img{
+img {
      width: 100%;
      z-index: -1;
 }
-.h-flex{
-     display: flex;
-     justify-content: flex-end;
-     padding: 5.5vh;
-}
 
-button{
-     padding:2px;
+button {
+     padding: 2px;
      margin: 3px;
      background-color: #4a4a4a;
      color: white;
 }
-main{
+
+main {
      width: 75vw;
      margin: auto;
-}
-
-.container-web{
-     width: calc( 100% / 7 - 22px);
-     position:relative;
-     margin: 3px 2px;
-}
-
-.fa-microphone-slash{
-     color: white;
-     font-size: 80%;
-     background-color: grey;
-     position: absolute;
-     bottom: 4%;
-     left: 0;
-     z-index: 1;
-}
-.d-flex{
-     display: flex;
-     flex-wrap: wrap;
-
-}
-
-footer i, p{
-     color: white;
-     display: flex;
-     justify-content: space-between;
-}
-
-.c-flex{
-     display: flex;
-     margin: 1%;
-
 }
 
 footer {
@@ -73,24 +35,88 @@ footer {
      background-color: #222222;
 }
 
+/* //general */
 
-#end{
-     color: red;
-     align-self: center; 
+
+/* header */
+.h-flex {
+     display: flex;
+     justify-content: flex-end;
+     padding: 5.5vh;
+}
+
+/* //header */
+
+
+/* main */
+.container-web {
+     width: calc(100% / 7 - 22px);
+     position: relative;
+     margin: 3px 2px;
+}
+
+.fa-microphone-slash {
+     color: white;
+     font-size: 80%;
+     background-color: grey;
+     position: absolute;
+     bottom: 4%;
+     left: 0;
+     z-index: 1;
+}
+
+.d-flex {
+     display: flex;
+     flex-wrap: wrap;
 
 }
 
-footer section{
+/* //main */
+
+
+/* footer */
+.c-flex {
+     display: flex;
+     margin: 1%;
+
+}
+
+footer i,
+p {
+     color: white;
+     display: flex;
+     justify-content: space-between;
+}
+
+#end {
+     color: red;
+     align-self: center;
+
+}
+
+footer section {
      text-align: center;
      margin: 3px 10px;
 }
 
-.fa-share-from-square{
+.fa-share-from-square {
      color: greenyellow;
 }
 
+/* //footer */
 
-.ending{
+
+
+
+
+
+
+
+
+
+
+
+.ending {
      background-color: #4a4a4a;
      width: 6%;
      display: flex;
